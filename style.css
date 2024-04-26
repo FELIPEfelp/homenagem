@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-image: url(img/annie-spratt-0ZPSX_mQ3xI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+}
+
+div.obra{
+    background-color: rgba(0, 0, 0, 0.087);
+}
+
+.tab{
+    padding: 15px;
+    text-align: center;
+}
+
+.a{
+    text-decoration: none;
+    background-color:black;
+    color: white;
+    border: 5px;
+    border-radius: 5px;
+}
+
+.b{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border: 5px;
+    border-radius: 5px;
+}
+
+.a:hover{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border: 5px;
+    border-radius: 5px;
+    transition-duration: 1.0s;
+}
+
+.b:hover{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border: 5px;
+    border-radius: 5px;
+    transition-duration: 1.0s;
+}
+
+img{
+    border: 2px solid black;
+}
